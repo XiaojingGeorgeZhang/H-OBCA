@@ -1,5 +1,5 @@
 # H-OBCA
-Hierarchical Optimization-Based Collision Avoidance - a path planner for autonomous parking 
+Hierarchical Optimization-Based Collision Avoidance - An algorithm for generating smooth parking trajectories 
 
 Paper describing the theory can be found [here](http://arxiv.org/abs/1711.03449).
 
