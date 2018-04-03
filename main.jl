@@ -35,8 +35,8 @@ close("all")
 ##################################################
 
 # define scenarios
-scenario = "parallel"
-# scenario = "backwards"
+# scenario = "parallel"
+scenario = "backwards"
 
 # fixed or variable sampling time 1/0
 fixTime = 0		# default: 0 (variable time steps)
