@@ -46,10 +46,10 @@ TsPF = 0.05
 if scenario == "backwards"
 	# nominal sampling time
 	sampleN = 3 		# down-sampling from Hybrid A* to OBCA
-	if fixTime == 1 	# COMMENT
-		Ts = 0.65/3*sampleN # COMMENT
+	if fixTime == 1 	# 
+		Ts = 0.65/3*sampleN # 
 	else
-		Ts = 0.6/3*sampleN # COMMENT
+		Ts = 0.6/3*sampleN # 
 	end
 else
 	sampleN = 3
