@@ -10,6 +10,7 @@ Paper describing the theory can be found [here](http://arxiv.org/abs/1711.03449)
 ## Examples
 
 ### H-OBCA for Reverse Parking
+<img src="https://github.com/XiaojingGeorgeZhang/OBCA/blob/master/images/TrajQuad_3D_Video.gif" width="700" />
 <img src="https://github.com/XiaojingGeorgeZhang/H-OBCA/images/TrajReverseHOBCA.gif" width="700" />
 
 ### H-OBCA for Parallel Parking
