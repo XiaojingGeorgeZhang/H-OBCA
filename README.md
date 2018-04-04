@@ -3,6 +3,19 @@ Hierarchical Optimization-Based Collision Avoidance - An algorithm for generatin
 
 Paper describing the theory can be found [here](http://arxiv.org/abs/1711.03449).
 
+## Short Description
+
+
+
+## Examples
+
+### H-OBCA for Reverse Parking
+<img src="https://github.com/XiaojingGeorgeZhang/H-OBCA/images/TrajReverseHOBCA.gif" width="700" />
+
+### H-OBCA for Parallel Parking
+<img src="https://github.com/XiaojingGeorgeZhang/H-OBCA/images/TrajParallelHOBCA.gif" width="700" />
+
+
 ## How to run the Parking code:
 
 ### First steps
