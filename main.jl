@@ -47,16 +47,16 @@ if scenario == "backwards"
 	# nominal sampling time
 	sampleN = 3 		# down-sampling from Hybrid A* to OBCA
 	if fixTime == 1 	# 
-		Ts = 0.65/3*sampleN # 
+		Ts = 0.65		# trial-and-error
 	else
-		Ts = 0.6/3*sampleN # 
+		Ts = 0.6 		# trial-and-error
 	end
 else
 	sampleN = 3
 	if fixTime == 1
-		Ts = 0.95/3*sampleN
+		Ts = 0.95	# trial-and-error
 	else
-		Ts = 0.9/3*sampleN
+		Ts = 0.9	# trial-and-error
 	end
 end
 
