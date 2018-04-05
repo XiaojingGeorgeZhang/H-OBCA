@@ -24,7 +24,7 @@ H-OBCA is able to generate high-quality *kino-dynamically feasible obstacle-free
 
 1. Change to the directory
 
-2. Install Julia from https://julialang.org/downloads/ (code tested on version 0.5) 
+2. Install Julia from https://julialang.org/downloads/ (code tested on version 0.5.1 and 0.6.0) 
 
 3. Open Julia in terminal
 
