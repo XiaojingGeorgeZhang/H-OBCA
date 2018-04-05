@@ -61,6 +61,6 @@ include("setup.jl")
 also need to be made in collision_check.jl
 
 ### Note
-1. this code has been tested on Julia 0.5, and might not run on any other Julia versions
+1. this code has been tested on Julia 0.5.1 and 0.6.0, and might not run on any other Julia versions
 
 2. For best results, run code in Julia terminal
