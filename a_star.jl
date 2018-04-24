@@ -305,7 +305,7 @@ function get_final_path(closed::Dict{Int64, Node},
         nid = n.pind
 
         if rx[end] == nstart.x && ry[end] == nstart.y
-            println("done")
+            # println("done")
             break
         end
     end
