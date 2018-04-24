@@ -154,7 +154,7 @@ function ParkingConstraints(x0,xF,N,Ts,L,ego,XYbounds,nOb,vOb, A, b,x,u,l,n,time
 	e[6] = c5 <= 5e-5
 	e[7] = maximum(c6)<= 5e-5
 
-	print(e,"\n")
+	# print(e,"\n")
 
 	if sum(e) == 7
 		return 1

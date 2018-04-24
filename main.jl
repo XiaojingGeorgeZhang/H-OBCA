@@ -47,16 +47,16 @@ if scenario == "backwards"
 	# nominal sampling time
 	sampleN = 3 		# down-sampling from Hybrid A* to OBCA
 	if fixTime == 1 	# 
-		Ts = 0.65/3*sampleN		# trial-and-error
+		Ts = 0.65/3*sampleN		# 0.65/3 must be compatible with motion resolution of Hybrid A* algorithm
 	else
-		Ts = 0.6/3*sampleN 		# trial-and-error
+		Ts = 0.6/3*sampleN 		# 0.6/3 must be compatible with motion resolution of Hybrid A* algorithm
 	end
 else
 	sampleN = 3
 	if fixTime == 1
-		Ts = 0.95/3*sampleN	# trial-and-error
+		Ts = 0.95/3*sampleN		# 0.95/3 must be compatible with motion resolution of Hybrid A* algorithm
 	else
-		Ts = 0.9/3*sampleN	# trial-and-error
+		Ts = 0.9/3*sampleN		# 0.9/3 must be compatible with motion resolution of Hybrid A* algorithm
 	end
 end
 
